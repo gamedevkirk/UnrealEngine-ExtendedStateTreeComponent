@@ -18,3 +18,8 @@ Once you're using the ExtendedStateTreeComponent, you'll have access to the `Get
 
 > Note: If `SetStateTree` is called on a running tree, the tree will be stopped, swapped, and restarted.</br>
 If the tree is not running, it will not be started automatically, and you'll need to call `StartLogic()` manually in either Blueprints or C++.
+
+---
+
+I may end up adding additional features and configuring this as a proper plugin.
+As of now, I don't believe there's enough here to justify creating an external dependency just to set state trees dynamically.
