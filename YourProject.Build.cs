@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class ShibaFramework54 : ModuleRules
+public class YourProject : ModuleRules
 {
-	public ShibaFramework54(ReadOnlyTargetRules Target) : base(Target)
+	public YourProject(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
