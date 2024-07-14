@@ -1,0 +1,14 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "",
+
+    // Ensure the plugin is enabled
+	"Plugins": [
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		}
+	]
+}
