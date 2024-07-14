@@ -1,7 +1,8 @@
 # UnrealEngine-ExtendedStateComponent
 
-A quick extension of the Unreal Engine State Tree plugin with support for dynamically changing State Trees at runtime.</br>
-Supports Blueprints as well as C++.</br>
+A quick extension of the Unreal Engine State Tree plugin with support for dynamically changing State Trees at runtime.
+Supports Blueprints as well as C++.
+
 Epic will likely add this feature themselves in a future release, but we're 4 versions deep without support yet, so here we are!
 
 ## How to setup in your project
