@@ -8,10 +8,11 @@ Epic will likely add this feature themselves in a future release, but we're 4 ve
 ## How to set up in your project
 
 1. Copy the **ExtendedStateTree.h** and **ExtendedStateTree.cpp** files into your project source directory
-2. Update your **.uproject** or **.uplugin** file with the **GameplayStateTree** plugin dependency if you haven't already
-3. Add the necessary public module dependencies to your **.Build.cs** file
-4. Generate Visual Studio project files and build
-5. Replace existing uses of the **StateTreeComponent** with the **ExtendedStateTreeComponent** 
+2. In the `.h` file, update **YOURPROJECT_API** to the appropriate value for your project
+3. Update your **.uproject** or **.uplugin** file with the **GameplayStateTree** plugin dependency if you haven't already
+4. Add the necessary public module dependencies to your **.Build.cs** file
+5. Generate Visual Studio project files and build
+6. Replace existing uses of the **StateTreeComponent** with the **ExtendedStateTreeComponent** 
 
 Once you're using the ExtendedStateTreeComponent, you'll have access to the `GetStateTree` and `SetStateTree` methods.
 
